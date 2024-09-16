@@ -53,7 +53,8 @@ img{
 }
 
 .card{
-    width: 25.16em; /* 13*25.16 */
+    
+    width: 25.16em; /* 13*25.16 *
     border-radius: 10px;
     /* background-color: white; */
 }
@@ -61,7 +62,7 @@ img{
 .card-image{
     overflow: hidden;
     height: 15.3rem;
-    border-radius: 10px 0 0 10px ;
+    border-radius: 10px 0 0 0 ;
 }
 
 .card-main{
@@ -78,7 +79,7 @@ img{
 .card-user{
     position: relative;
     width: 100%;
-    padding: 0px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,6 +114,7 @@ img{
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
+   
 }
 
 .icon-share:hover .i-share{
@@ -135,7 +137,7 @@ img{
 
 .network {
     position: absolute;
-    top: 5px;
+    top: -10px;
     left: -32px;
     width: 25rem;
     height: 75px;
@@ -179,6 +181,10 @@ img{
             height: 100%;
             border-radius: 10px 0 0 10px;
 
+        }
+
+        .card-user{
+            padding: 0px 0;
         }
 
         .card-image > img {

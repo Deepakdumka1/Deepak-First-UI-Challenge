@@ -114,7 +114,7 @@ img{
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
-   
+    left: 10px;
 }
 
 .icon-share:hover .i-share{
@@ -148,6 +148,7 @@ img{
     align-items: center;
     visibility: hidden;
     z-index: 1;
+    
 }
 
 .network p{
@@ -160,6 +161,7 @@ img{
 }
 
 .icon-social{
+
     font-size: 1.7rem;
     margin: auto 0.7rem;
 }
@@ -192,10 +194,10 @@ img{
         }
 
         .network {
-            width: 22rem;
+            width: 25rem;
             height: 50px;
             top: -70px;
-            left: 59% ;
+            left: 56% ;
             border-radius: 10px;
             justify-content: center;
         }
